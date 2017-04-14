@@ -35,11 +35,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\Language\IContext.cs" />
+    <Compile Include="Core\Language\IExpression.cs" />
     <Compile Include="Core\Language\IFunction.cs" />
     <Compile Include="Core\Language\IObject.cs" />
     <Compile Include="Core\Language\IStatement.cs" />
-    <Compile Include="Core\Language\NativeFunction.cs" />
-    <Compile Include="Core\Language\NativeObject.cs" />
     <Compile Include="Core\Language\Object.cs" />
     <Compile Include="Core\Language\Value.cs" />
     <Compile Include="Core\Language\ValueType.cs" />
