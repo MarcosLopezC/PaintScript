@@ -34,6 +34,13 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Language\Context.cs" />
+    <Compile Include="Core\Language\Function.cs" />
+    <Compile Include="Core\Language\NativeObject.cs" />
+    <Compile Include="Core\Language\Object.cs" />
+    <Compile Include="Core\Language\Statement.cs" />
+    <Compile Include="Core\Language\Value.cs" />
+    <Compile Include="Core\Language\ValueType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
