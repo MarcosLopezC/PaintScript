@@ -1,6 +1,6 @@
 ﻿namespace PaintScript.Core.Language
 {
-	public class NativeObject : Object
+	public interface IContext
 	{
 	}
 }
